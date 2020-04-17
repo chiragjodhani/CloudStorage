@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2E64EFF24496A1400023184 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E64EFE24496A1400023184 /* AppDelegate.swift */; };
+		C2E64F0124496A1400023184 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E64F0024496A1400023184 /* SceneDelegate.swift */; };
+		C2E64F0324496A1400023184 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E64F0224496A1400023184 /* ContentView.swift */; };
+		C2E64F0524496A1600023184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E64F0424496A1600023184 /* Assets.xcassets */; };
+		C2E64F0824496A1600023184 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E64F0724496A1600023184 /* Preview Assets.xcassets */; };
+		C2E64F0B24496A1600023184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E64F0924496A1600023184 /* LaunchScreen.storyboard */; };
+		C2E64F1324496EC100023184 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2E64F1224496EC100023184 /* GoogleService-Info.plist */; };
+		C2E64F142449721D00023184 /* Pods_CloudStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742BD09A0A50C28952E8DAE4 /* Pods_CloudStorage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		742BD09A0A50C28952E8DAE4 /* Pods_CloudStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A829EA263573626B2F9265E3 /* Pods-CloudStorage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudStorage.debug.xcconfig"; path = "Target Support Files/Pods-CloudStorage/Pods-CloudStorage.debug.xcconfig"; sourceTree = "<group>"; };
+		C2E64EFB24496A1400023184 /* CloudStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E64EFE24496A1400023184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2E64F0024496A1400023184 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C2E64F0224496A1400023184 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2E64F0424496A1600023184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2E64F0724496A1600023184 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2E64F0A24496A1600023184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2E64F0C24496A1600023184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E64F1224496EC100023184 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EDB87A16263768C2A96EC111 /* Pods-CloudStorage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudStorage.release.xcconfig"; path = "Target Support Files/Pods-CloudStorage/Pods-CloudStorage.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2E64EF824496A1400023184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E64F142449721D00023184 /* Pods_CloudStorage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		478F5491C541B04F16B21119 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A829EA263573626B2F9265E3 /* Pods-CloudStorage.debug.xcconfig */,
+				EDB87A16263768C2A96EC111 /* Pods-CloudStorage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C2E64EF224496A1400023184 = {
+			isa = PBXGroup;
+			children = (
+				C2E64EFD24496A1400023184 /* CloudStorage */,
+				C2E64EFC24496A1400023184 /* Products */,
+				478F5491C541B04F16B21119 /* Pods */,
+				C62487DD0594E30C9570DD9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2E64EFC24496A1400023184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E64EFB24496A1400023184 /* CloudStorage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2E64EFD24496A1400023184 /* CloudStorage */ = {
+			isa = PBXGroup;
+			children = (
+				C2E64EFE24496A1400023184 /* AppDelegate.swift */,
+				C2E64F0024496A1400023184 /* SceneDelegate.swift */,
+				C2E64F0224496A1400023184 /* ContentView.swift */,
+				C2E64F0424496A1600023184 /* Assets.xcassets */,
+				C2E64F0924496A1600023184 /* LaunchScreen.storyboard */,
+				C2E64F1224496EC100023184 /* GoogleService-Info.plist */,
+				C2E64F0C24496A1600023184 /* Info.plist */,
+				C2E64F0624496A1600023184 /* Preview Content */,
+			);
+			path = CloudStorage;
+			sourceTree = "<group>";
+		};
+		C2E64F0624496A1600023184 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2E64F0724496A1600023184 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C62487DD0594E30C9570DD9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				742BD09A0A50C28952E8DAE4 /* Pods_CloudStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2E64EFA24496A1400023184 /* CloudStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E64F0F24496A1600023184 /* Build configuration list for PBXNativeTarget "CloudStorage" */;
+			buildPhases = (
+				3054922811190BB886507B5C /* [CP] Check Pods Manifest.lock */,
+				C2E64EF724496A1400023184 /* Sources */,
+				C2E64EF824496A1400023184 /* Frameworks */,
+				C2E64EF924496A1400023184 /* Resources */,
+				3D42DB2249D45A6470D12C53 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudStorage;
+			productName = CloudStorage;
+			productReference = C2E64EFB24496A1400023184 /* CloudStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2E64EF324496A1400023184 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Chirag's";
+				TargetAttributes = {
+					C2E64EFA24496A1400023184 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C2E64EF624496A1400023184 /* Build configuration list for PBXProject "CloudStorage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2E64EF224496A1400023184;
+			productRefGroup = C2E64EFC24496A1400023184 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2E64EFA24496A1400023184 /* CloudStorage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2E64EF924496A1400023184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E64F0B24496A1600023184 /* LaunchScreen.storyboard in Resources */,
+				C2E64F1324496EC100023184 /* GoogleService-Info.plist in Resources */,
+				C2E64F0824496A1600023184 /* Preview Assets.xcassets in Resources */,
+				C2E64F0524496A1600023184 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3054922811190BB886507B5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudStorage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D42DB2249D45A6470D12C53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CloudStorage/Pods-CloudStorage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CloudStorage/Pods-CloudStorage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CloudStorage/Pods-CloudStorage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2E64EF724496A1400023184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E64EFF24496A1400023184 /* AppDelegate.swift in Sources */,
+				C2E64F0124496A1400023184 /* SceneDelegate.swift in Sources */,
+				C2E64F0324496A1400023184 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2E64F0924496A1600023184 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E64F0A24496A1600023184 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2E64F0D24496A1600023184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2E64F0E24496A1600023184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2E64F1024496A1600023184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A829EA263573626B2F9265E3 /* Pods-CloudStorage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CloudStorage/Preview Content\"";
+				DEVELOPMENT_TEAM = 828G22CD6Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CloudStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eryushion.CloudStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2E64F1124496A1600023184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB87A16263768C2A96EC111 /* Pods-CloudStorage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CloudStorage/Preview Content\"";
+				DEVELOPMENT_TEAM = 828G22CD6Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CloudStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eryushion.CloudStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2E64EF624496A1400023184 /* Build configuration list for PBXProject "CloudStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E64F0D24496A1600023184 /* Debug */,
+				C2E64F0E24496A1600023184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E64F0F24496A1600023184 /* Build configuration list for PBXNativeTarget "CloudStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E64F1024496A1600023184 /* Debug */,
+				C2E64F1124496A1600023184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2E64EF324496A1400023184 /* Project object */;
+}
